@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+}
+
+.xob{
+    transition: 0.6s;
+}
+
+
+.boxes{
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+    gap: 20px;
+    transition: 0.6s;
+}
+
+.box h2{
+    display: none;
+}
+
+.box:hover h1{
+    display: none;
+}
+
+.box:hover h2{
+    display: flex;
+}
+
+.box2 h2{
+    display: none;
+}
+
+.box2:hover h1{
+    display: none;
+}
+
+.box2:hover h2{
+    display: flex;
+}
+
+.box3 h2{
+    display: none;
+}
+
+.box3:hover h1{
+    display: none;
+}
+
+.box3:hover h2{
+    display: flex;
+}
+
+.box4 h2{
+    display: none;
+}
+
+.box4:hover h1{
+    display: none;
+}
+
+.box4:hover h2{
+    display: flex;
+}
+
+
+.box{
+    background-color: red;
+    padding: 100px;
+  
+}
+
+.box:hover{
+    transform: scale(1.2);
+  
+}
+
+
+.box2{
+    background-color: green;
+    padding: 100px;
+    
+}
+
+.box2:hover{
+    transform: translate(50px, 50px);
+  
+}
+
+.box3{
+    background-color: purple;
+    padding: 100px;
+}
+
+.box3:hover{
+    transform: rotateY(360deg)
+  
+}
+
+.box4{
+    background-color: yellow;
+    padding: 100px;
+}
+
+.box4:hover{
+    transform:skew(30deg)
+  
+}
+
