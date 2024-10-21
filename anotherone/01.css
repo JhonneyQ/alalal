@@ -1,0 +1,25 @@
+#banner{
+    /* height: 60vh; */
+    background-image: url(https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-masthead.jpg);
+    padding: 8rem 0;
+}
+
+.bb{
+    background-color: rgb(243, 243, 243);
+}
+
+.aa img{
+    width: 100%;
+}
+
+.cc img{
+    width: 50%;
+}
+
+.tt{
+    padding: 59px;
+}
+
+.as{
+    width: 700px;
+}
