@@ -1,0 +1,94 @@
+header{
+    background-color: $backcol-color;
+    .container{
+        
+        .head{
+            height: 80px;
+            color: #9d9d9d;
+            @include theme;
+            .log{
+                @include theme;
+                ul{
+                    @include theme;
+                    li{
+                        a{
+                            color: #9d9d9d;
+                        }
+                    }
+                }
+                .but{
+                    
+                }
+            }
+        }
+        
+    }
+}
+
+main{
+    .section{
+        background-color: $backcol2-color;
+        height: 35vh;
+        .container{
+            button{
+                background-color: $backcol3-color;
+                border: none;
+                color: white;
+                padding: 15px;
+                
+            }
+        }
+
+        .cont2{
+            @include theme; 
+            flex-direction: column;
+            padding-top: 70px;
+        }
+    }
+    .section2{
+        .cont3{
+            @include theme;
+            flex-direction: column;
+            padding-top: 40px;
+            .cards{
+                .card{
+                    width: 30%;
+                    img{
+                        margin: 0 auto;
+                    }
+                    
+                }
+            }
+        }
+        padding: 60px;
+    }
+    .section3{
+        background-color: orange    ;
+        height: 40vh;
+        .cont4{
+            @include theme;
+            flex-direction: column;
+            padding-top: 40px;
+            .cards{
+                .card{
+                    width: 30%;
+                    img{
+                        margin: 0 auto;
+
+                        
+                    }
+                    button{
+                        padding: 10px;
+                        
+                    }
+                    
+                }
+            }
+        }
+    }
+}
+
+footer{
+    padding: 100px;
+    text-align: center;
+}
